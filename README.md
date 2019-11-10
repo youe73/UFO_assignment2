@@ -95,9 +95,10 @@ average 22
 ![image](https://user-images.githubusercontent.com/40825848/68544635-84392680-03c5-11ea-8894-442722e0e843.png)
 
 
+Judging by the median and mean from the illustration below, it shows that the performance lies on the lower side of the box, which means that this represent the fast numbers.
 
 
-
+![image](https://user-images.githubusercontent.com/40825848/68544698-3ffa5600-03c6-11ea-9fcd-05b1c26ff2a1.png)
 
 
 
