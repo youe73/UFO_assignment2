@@ -68,6 +68,7 @@ Using BufferedInputStream instead of the reader gave a better time performance f
 Looking at the profiler again after the improvement, it shows that the HashMap.put is accounting for high usage.
 To optimize on the hashmap solution the following code is provided:
 
+![image](https://user-images.githubusercontent.com/40825848/68544628-6e2b6600-03c5-11ea-9422-0bd3fc266ca0.png)
 
 Old code: freq.put(b, freq.get(b) + 1);
 
@@ -90,5 +91,8 @@ The optimizing of the 2 places in the script has improved the overall time measu
 9
 15
 average 22
+
+![image](https://user-images.githubusercontent.com/40825848/68544635-84392680-03c5-11ea-8894-442722e0e843.png)
+
 
 
