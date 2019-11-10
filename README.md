@@ -65,8 +65,10 @@ Using BufferedInputStream instead of the reader gave a better time performance f
 Looking at the profiler again after the improvement, it shows that the HashMap.put is accounting for high usage.
 To optimize on the hashmap solution the following code is provided:
 
-New code: freq.computeIfPresent(b, (Integer key, Long value) -> ++value);
+
 Old code: freq.put(b, freq.get(b) + 1);
+
+New code: freq.computeIfPresent(b, (Integer key, Long value) -> ++value);
 
 This computeIfPresent is a smarter method to use as: 
 
