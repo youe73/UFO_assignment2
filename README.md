@@ -1,6 +1,12 @@
 # UFO_assignment2
 
 Assignment 2
+
+Download or copy the script to your Java editor. You should be in a directory where you can have a folder resources containing the FoundationSeries.txt. Replace the path name with your absolute path name. And you should be able go.
+When you run the script you can try both method (tallychars) and the improved one (newsolution)
+
+Reports from the investigation and analysis
+
 The current time performance is conducted in the way that time measurement is placed inside the main method after the file access.
 The reason why the Reader instantiation is not included is that it can affect the time performance, as for other CPU activities there might
 be running. The file access has nothing to do with code performance. Other applications should be shut down and the
