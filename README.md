@@ -2,8 +2,18 @@
 
 Assignment 2
 
-Download or copy the script to your Java editor. You should be in a directory where you can have a folder resources containing the FoundationSeries.txt. Replace the path name with your absolute path name. And you should be able go.
+Download or copy the script to your Java editor. If you have downloaded from UFO repo,it should have maven...etc. Otherwise just copy the new method and lines added into your script, as there is not much change from the original script. You should be in a directory where you can have a folder resources containing the FoundationSeries.txt. Replace the path name with your absolute path name. And you should be able go.
 When you run the script you can try both method (tallychars) and the improved one (newsolution)
+The best thing is to close all the running applications. 
+Open a terminal and navigate to the folder where your script is. 
+- You could do a mvn clean install to see if everything is ok. 
+- And also mvn compile.
+
+If everything is running successfully type the following:
+
+- mvn exec:java "-Dexec.mainClass"="cphbusiness.ufo.letterfrequencies.Main" -q
+
+
 
 Reports from the investigation and analysis
 
