@@ -23,6 +23,9 @@ average 160
 
 Profiler
 It can be seen using the profiler that the sampling taken for the methodlist, is indicating that main method and tallyChars has the highest number.
+
+![image](https://user-images.githubusercontent.com/40825848/68544593-27d60700-03c5-11ea-8b5c-59e713982d77.png)
+
 So it leads to the conclusion that the bottleneck might be in tallyChars. The Profiler further shows that the InputStreamReader is high usage,
 so my hypothesis of where the problem occurs is in the readfile and hashmap.
 The solution I could provide to optimize the time performance is done with the following modification. It simply just used a BufferedInputStream.
